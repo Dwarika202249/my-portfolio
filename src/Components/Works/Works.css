@@ -1,6 +1,72 @@
 .works {
-    padding: 0 3rem;
-    display: flex;
-    height: 90vh;
-    margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  gap: 20px;
+  position: relative;
+  /* background-color: #e36414; */
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.toggleBtn {
+  display: inline-block;
+  padding: 6px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.activeBtn {
+  display: inline-block;
+  padding: 6px 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #e36414;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.componentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.w-blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
+}
+
+.w-blur2 {
+  right: -12rem;
+  top: 0rem;
+}
+
+.w-blur1 {
+  top: 13rem;
+  left: -18rem;
 }
