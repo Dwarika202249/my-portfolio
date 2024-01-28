@@ -1,0 +1,95 @@
+.contact-form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.c-left {
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    gap: 20px;
+}
+
+.c-right {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-right > form {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.user {
+    padding: 10px;
+    border-radius: 0.6rem;
+    border: 2px solid var(--orange);
+    outline: none;
+    max-width: 90%;
+    min-width: 90%;
+}
+
+textarea {
+    max-height: 10rem;
+    min-height: 10rem;
+}
+
+.msgBtn {
+    width: fit-content;
+    margin-left: 40%;
+}
+
+.c-blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+  }
+  
+  .c-blur2 {
+    right: -12rem;
+    top: 0rem;
+  }
+  
+  .c-blur1 {
+    top: 13rem;
+    left: -18rem;
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .c-right > form {
+        width: 80%;
+        margin-right: 20%;
+    }
+
+    .contact {
+        transform: scale(0.6);
+    }
+
+    .msgBtn {
+        margin-left: 28%;
+    }
+  }

@@ -13,6 +13,35 @@
     align-items: center;
 }
 
+.darkCircle {
+    width: 8rem;
+    height: 8rem;
+    background: #191911;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    z-index: 1;
+    color: #191911;
+}
+
+.darkCircle::before {
+    border-radius: 100%;
+    content: '';
+    background-image: linear-gradient(to bottom, #ffc05c 0%, #faf8f6 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var(--boxShadow2);
+}
+
 .circle {
     width: 8rem;
     height: 8rem;
@@ -43,5 +72,23 @@
 .achievement span:nth-of-type(2) {
     color: var(--orange);
     margin-top: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .experience {
+        gap: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .circle {
+        width: 4rem;
+        height: 4rem;
+    }
+    .darkCircle {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
 }
 

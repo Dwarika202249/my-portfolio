@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+
+.f-content {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10rem;
+    gap: 3rem;
+}
+
+.f-content > a {
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.f-icons {
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        margin: -0.5rem -0.5rem;
+      }
+      .footer>img {
+        height: 400px;
+      }
+    
+      .f-content {
+        margin-top: 6rem;
+      }
+    
+      .f-icons {
+        gap: 1rem;
+      }
+}

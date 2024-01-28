@@ -32,13 +32,24 @@
     display: flex;
     gap: 2rem;
     margin-right: 4rem;
+    cursor: pointer;
 }
 
-.n-list>ul>li:hover {
+li:hover {
     color: var(--orange);
     cursor: pointer;
 }
 
 .n-button {
     flex: 2;
+}
+
+@media screen and (max-width: 480px) {
+    .n-right {
+        display: none;
+    }
+    .n-left {
+        width: 100%;
+        justify-content: space-between;
+    }
 }

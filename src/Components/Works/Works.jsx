@@ -13,7 +13,7 @@ const Works = () => {
 //   console.log(data);
 
   return (
-    <div className="works">
+    <div className="works" id="Works">
         <div className="w-blur w-blur1" style={{background: '#ABF1FF94'}}></div>
     <div className="btnContainer">
       <button

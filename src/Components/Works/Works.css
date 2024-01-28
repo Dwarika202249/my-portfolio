@@ -70,3 +70,15 @@
   top: 13rem;
   left: -18rem;
 }
+
+@media screen and (max-width: 480px) {
+  .works {
+    height: 66rem;
+  }
+
+  .activeBtn, .toggleBtn {
+    width: 60%;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}

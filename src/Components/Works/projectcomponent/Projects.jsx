@@ -1,7 +1,7 @@
 import "./project.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEye } from "@fortawesome/free-regular-svg-icons";
+
+import Github from "@iconscout/react-unicons/icons/uil-github";
+import Eye from "@iconscout/react-unicons/icons/uil-eye";
 
 const Projects = ({ category, data }) => {
   const filteredProjects = data.find((item) => item.category === category);
@@ -26,27 +26,16 @@ const Projects = ({ category, data }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon
-                    className="icon"
-                    icon={faGithub}
-                    size="lg"
-                    style={{ color: "#fff" }}
-                  />
+                  <Github className="icon" color="#fff" size="2rem" />
                 </a>
                 <a
                   href={project.liveUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FontAwesomeIcon
-                  className="icon"
-                  icon={faEye}
-                  size="lg"
-                  style={{ color: "#fff" }}
-                />
+                  <Eye className="icon" color="#fff" size="2rem" />
                 </a>
               </div>
-              
             </div>
           ))}
         </div>
