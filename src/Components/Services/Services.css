@@ -31,7 +31,7 @@
 }
 
 .s-button {
-    width: 10rem;
+    width: 12rem;
     height: 2.5rem;
     margin-top: 2rem;
 }
@@ -71,5 +71,8 @@
     .cards>* {
         position: static;
         margin-left: 50px;
+    }
+    .s-blur1{
+        
     }
 }

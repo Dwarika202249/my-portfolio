@@ -1,25 +1,29 @@
-import practiceReact from "./images/practicereact.png";
 import ddfoods from "./images/ddfoods.png";
 import weatherApp from "./images/weatherapp.png";
 import filmystaan from "./images/filmystaan.png";
+import saanpsidhi from "./images/saanpsidhi.png";
+import carrace from "./images/carrace.png";
+import mockmate from "./images/mockmate.png";
+import aeroplus from "./images/aeroplus.png";
 
 const data = [
   {
-    category: "STATIC_WEBSITES",
+    category: "PERSONAL_PROJECTS",
     projects: [
+      
       {
-        name: "COMPONENTS APP",
-        image: practiceReact,
-        liveUrl: "https://practiceofreact.netlify.app",
-        githubUrl: "https://github.com/Dwarika202249/react-practice",
-        desc: "Different components of react at one place",
+        name: "MockMate AI",
+        image: mockmate,
+        liveUrl: "https://mockmateio.netlify.app/",
+        githubUrl: "https://github.com/Dwarika202249/MockMate",
+        desc: "An AI-driven mock interview platform designed to help users prepare for interviews by providing real-time feedback, practice sessions, and more.",
       },
       {
-        name: "DD FOODS",
-        image: ddfoods,
-        liveUrl: "https://ddfoods.netlify.app",
-        githubUrl: "https://github.com/Dwarika202249/ddfoodstesting",
-        desc: "Local food shop website to show food items and can order via whatsapp shop.",
+        name: "FILMYSTAAN",
+        image: filmystaan,
+        liveUrl: "https://filmystaan.netlify.app/",
+        githubUrl: "https://github.com/Dwarika202249/Filmystaan",
+        desc: "We can see trending movies and series and can search movies and tv series and also we have genres for filtration.",
       },
       {
         name: "WEATHER FOREACASTING",
@@ -29,35 +33,23 @@ const data = [
         desc: "Weather forcasting app, we can search any location and will get forecasting of weathers",
       },
       {
-        name: "FILMYSTAAN",
-        image: filmystaan,
-        liveUrl: "https://filmystaan.netlify.app/",
-        githubUrl: "https://github.com/Dwarika202249/Filmystaan",
-        desc: "We can see trending movies and series and can search movies and tv series and also we have genres for filtration.",
+        name: "AeroPlus",
+        image: aeroplus,
+        liveUrl: "https://aeroplus.netlify.app/",
+        githubUrl: "https://github.com/Dwarika202249/flight-status",
+        desc: "The project aims to streamline communication between the airline and passengers, ensuring they are informed about changes to their flight statuses and gate numbers in real-time.",
       },
     ],
   },
   {
-    category: "FULL_STACK",
+    category: "FREELANCE",
     projects: [
       {
-        name: "FILMYSTAAN",
-        image: filmystaan,
-        liveUrl: "https://filmystaan.netlify.app/",
-        githubUrl: "https://github.com/Dwarika202249/Filmystaan",
-        desc: "We can see trending movies and series and can search movies and tv series and also we have genres for filtration.",
-      },
-    ],
-  },
-  {
-    category: "GUI_APPS",
-    projects: [
-      {
-        name: "FILMYSTAAN",
-        image: filmystaan,
-        liveUrl: "https://filmystaan.netlify.app/",
-        githubUrl: "https://github.com/Dwarika202249/Filmystaan",
-        desc: "We can see trending movies and series and can search movies and tv series and also we have genres for filtration.",
+        name: "DD FOODS",
+        image: ddfoods,
+        liveUrl: "https://ddfoods.netlify.app",
+        githubUrl: "https://github.com/Dwarika202249/ddfoodstesting",
+        desc: "Local food shop website to show food items and can order via whatsapp shop.",
       },
     ],
   },
@@ -65,23 +57,18 @@ const data = [
     category: "GAMES",
     projects: [
       {
-        name: "FILMYSTAAN",
-        image: filmystaan,
-        liveUrl: "https://filmystaan.netlify.app/",
-        githubUrl: "https://github.com/Dwarika202249/Filmystaan",
-        desc: "We can see trending movies and series and can search movies and tv series and also we have genres for filtration.",
+        name: "CAR RACE",
+        image: carrace,
+        liveUrl: "https://speedmycar.netlify.app/",
+        githubUrl: "https://github.com/Dwarika202249/carrace",
+        desc: "We can play simple car race which is made using HTML, CSS and pure JS.",
       },
-    ],
-  },
-  {
-    category: "UI_UX",
-    projects: [
       {
-        name: "FILMYSTAAN",
-        image: filmystaan,
-        liveUrl: "https://filmystaan.netlify.app/",
-        githubUrl: "https://github.com/Dwarika202249/Filmystaan",
-        desc: "We can see trending movies and series and can search movies and tv series and also we have genres for filtration.",
+        name: "SAANP SIDHI",
+        image: saanpsidhi,
+        liveUrl: "https://saanpsidhi-v2.netlify.app/",
+        githubUrl: "https://github.com/Dwarika202249/Snake-and-Ladder",
+        desc: "We can play snakes and ladders game here. This is single player game and working on multiplayer's features.",
       },
     ],
   },

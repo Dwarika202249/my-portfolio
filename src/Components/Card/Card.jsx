@@ -1,6 +1,6 @@
 import './Card.css'
 import { themeContext } from "../../Context";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 
 const Card = ({emoji, heading, detail}) => {
   const theme = useContext(themeContext);

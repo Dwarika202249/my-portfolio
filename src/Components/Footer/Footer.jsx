@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="wave" style={{ width: "100%" }} />
       <div className="f-content">
-        <a href="mailto:dwarikabppimt202249@gmail.com">dwarikabppimt202249@gmail.com</a>
+        <a href="mailto:dwarika.kumar9060@gmail.com">dwarika.kumar9060@gmail.com</a>
         <div className="f-icons">
           <a href="https://www.linkedin.com/in/dwarika-kumar-2266861a5/" target="_blank" rel="noopener noreferrer">
             <Linkedin color="white" size="3rem" />

@@ -53,6 +53,7 @@ textarea {
 
 .msgBtn {
     width: fit-content;
+    width: -moz-fit-content;
     margin-left: 40%;
 }
 

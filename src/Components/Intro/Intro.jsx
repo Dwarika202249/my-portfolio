@@ -26,7 +26,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>HY! I Am</span>
           <span>Dwarika Kumar</span>
           <span style={{ color: darkMode ? "white" : "" }}>
-            A passionate web developer dedicated to creating elegant and
+            A passionate Software Engineer dedicated to creating elegant and
             functional online solutions, turning concepts into captivating user
             journeys.
           </span>
